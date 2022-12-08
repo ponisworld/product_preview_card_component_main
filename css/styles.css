@@ -32,6 +32,7 @@ body {
 
 p {
     margin: 0 1rem 0.5rem 1rem;
+    padding: 0.5rem 0 0 1rem;
 }
 
 .desktop {
@@ -45,12 +46,14 @@ h1 {
     font-size: 2.25rem;
     color: var(--very-dark-blue);
     margin: 0 1rem 1rem 1rem;
+    padding: 1rem;
 }
 h2 {
     font-size: 2.5rem;
     color: var(--dark-cyan);
     margin: 1.5rem 1rem 1rem 1rem;
     display: inline-block;
+    padding: 0.25rem 0 0 1rem;
 }
 
 .oldPrice {
@@ -72,12 +75,13 @@ main > div > img {
     letter-spacing: 0.4rem;
     margin-bottom: 0.75rem;
     margin-left: 1rem;
+    padding: 1rem 0 0 1rem;
 }
 
 main {
     margin: 10vh auto 0 auto;
     width: 85vw;
-    max-width: 500px;
+    max-width: 600px;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 45% 55%;
@@ -88,10 +92,6 @@ main {
 article {
     margin: 2rem auto;
     height: 100%;
-    box-sizing: content-box;
-    background-color: inherit;
-    border-radius: 0 0 10px 10px;
-
 }
 
 button {
@@ -138,7 +138,7 @@ a {
     main {
         grid-template-rows: 1fr;
         grid-template-columns: 40% 60%;
-        max-height: 450px;
+        max-height: max-content
     }
 
     article {
