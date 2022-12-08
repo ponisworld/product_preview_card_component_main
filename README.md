@@ -11,8 +11,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [(https://github.com/ponisworld/product_preview_card_component_main)]
+- Live Site URL: [https://ponisworld.github.io/product_preview_card_component_main/]
 
 ## My process
 
